@@ -1,0 +1,15 @@
+﻿body {
+}
+body {
+    background-color: dimgrey;
+}
+
+.column {
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
